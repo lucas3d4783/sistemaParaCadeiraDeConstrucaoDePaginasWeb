@@ -1,0 +1,260 @@
+*{
+margin:0;
+padding:0;
+}
+
+body{
+	background-image: url("../img/binariog.jpg");
+	
+	/*background-color: #00FF40;*/
+	/*background-repeat: repeat;*/
+	background-size: 50%;
+	  	
+	
+
+}
+
+div.scrollmenu {
+  	float: right;
+  	overflow: auto;
+  	white-space: nowrap;  
+}
+
+div.scrollmenu ul li {
+  	display: inline-block;
+  	color: #001602;
+  	text-align: center;
+	margin-top: 40px;
+  	padding-right: 5px;
+  	text-decoration: none;
+	cursor: pointer;
+}
+
+div.geral{
+		background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+		width: 1000px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0px);
+		min-height: 1600px;
+
+}
+
+div.scrollmenu ul li:hover {
+  	background-color: #B5E5B9;
+	/*font-size:25px;*/
+}
+
+header{
+	top:0px;
+  	background-color: rgba(64, 255, 0, 0.5);
+  	height: 100px;
+	width:100%;
+	position:fixed;
+  	 
+}
+
+div.logo{
+	background-image: url("./img/logoComp.svg");
+	width: 50px; 
+    height: 50px; 
+	margin-top: 25px;
+	padding-left: 5px;
+	display: inline-block;
+}
+
+div.nomeEmp{
+	display: inline-block;
+
+}
+
+div.botoes{
+        display: block;
+        width: 530px;
+        height:333px;
+		margin: 0 auto;
+        opacity:1;
+		margin-top: 80px;
+}
+
+div.bot-left{
+	display: inline-block;
+	margin-top: 29%;
+	float: left;
+	border: 2px solid green;
+	background-color:black;
+	border-radius: 0.5em;
+	
+}
+
+div.img-artigos{
+	background-image: url("../img/Firewall.jpg");
+	background-repeat: no-repeat;
+  	border: 2px solid black;
+	display: inline-block;	
+	width:400px;
+	height:333px;
+	background-size:400px;	
+	opacity:1;
+    /*border: 1px solid green;*/
+	border-radius: 1em;
+	margin-left: 10px;
+	}  
+
+div.bot-right{
+    display: inline-block;
+	float:right;
+	margin-top:29%;
+	border: 2px solid green;
+	background-color:black;
+	border-radius: 0.5em;
+	
+}
+
+
+div.img-tuto-right{
+	display: inline-block;
+	float: right;
+	margin-top:70px;
+	height:400px;
+	position: relative;
+	margin-right: 20px;
+	max-width: 400px;
+	text-align: center;
+}
+
+div.img-tuto-left{
+    display: inline-block;
+    float: left;
+    margin-top:70px;
+	height: 400px;
+	position: relative;
+	margin-left: 20px;
+	max-width: 400px;
+	text-align: center;
+}
+
+.img-tuto-left img{
+        width: 350px;
+
+}	
+
+.img-tuto-right img{
+        width: 350px;
+		
+} 
+
+
+
+h3.titulo{
+	color: black;
+	margin-top: 71%;
+	text-align: center;
+	font-size: 17px;
+}
+
+div.tutoriais{
+	width: 510px;
+	height: auto;
+	margin-top: 434px;
+	left: 19%;
+	margin: 0 auto;
+	width: 1000px;
+	
+}
+
+div.bot-left :hover {
+		opacity: 0.5;
+}
+
+div.bot-right :hover {
+		opacity: 0.5;
+}
+
+div.img-tuto-left img:hover {
+        opacity: 0.5;
+	
+}
+
+div.img-tuto-right img:hover {
+        opacity: 0.5;
+}
+
+div.corpo{
+	    background: rgba(0, 0, 0, 0);
+        color: white;
+        position: absolute;
+		width: 1000px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 100px);
+		height: auto;
+}	
+
+div.rodape{
+    top:1450px;
+  	background-color: rgba(64, 255, 0, 0.5);
+  	height: 100px;
+	width:100%;
+	position:fixed;
+	text-align: center;
+	padding-top: 50px;
+	
+}
+
+a h3{
+	color: white;
+}
+
+ul li a {
+	color: black;
+}
+
+div.bot-right img:hover{
+	cursor: pointer;
+}
+div.bot-left img:hover{
+	cursor: pointer;
+}
+div.img-tuto-right img:hover {
+        opacity: 0.5;
+}
+div.corpo p{
+	text-align: justify;	
+}
+
+div.info{
+	margin: 20px;
+}
+
+.titulo{
+	text-align: center;
+	margin-top: 50px;
+}
+
+div.entrar{
+		background: rgba(0,0,0,0.6);
+        color: white;
+        position: relative;
+		width: 700px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 50px);
+		height: 400px;
+		text-align: right;
+		
+}
+div.entrar form{
+	margin-right: 25%;
+	padding-top: 120px;
+	
+}
+div.entrar form a p{
+	float: left;
+	margin-left: 20%;
+	color: red;
+	
+}
+		
+		
