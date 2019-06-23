@@ -4,6 +4,61 @@ margin:0;
 padding:0;
 }
 
+/*div para a imagem dos tutoriais*/
+div.imagem{
+	margin-top: 100px;
+	opacity: 0.7;
+	background-image:url("../img/computadores.jpg");
+	height: 400px;
+	background-size: 100% 400px;
+	background-repeat: no-repeat;
+}
+
+/*div para os conteúdos escritos de um tutorial*/
+div.conteudoTutorial{
+	width: 950px;
+	color: white;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 20px;
+	margin-top: 10px;
+}
+div.conteudoTutorial2{
+	margin-top: 150px;
+	width: 950px;
+	color: white;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 20px;
+
+}
+
+div.conteudoTutorial h2{
+	margin-top: 10px;
+}
+
+div.conteudoTutorial2 h2{
+	margin-top: 10px;
+}
+div.linkNextPageTuto{
+	/*float: right;*/
+	margin-right: 20px;
+	text-align: right;
+	margin-top: 50px;
+	color: white;
+	padding-bottom: 10px;
+	margin-right: 50px;
+}
+div.linkBackPageTuto{
+	/*float: right;*/
+	margin-right: 20px;
+	text-align: left;
+	margin-top: 50px;
+	color: white;
+	padding-bottom: 10px;
+	margin-left: 50px;
+}
+
 /**/
 body{
 	background-image: url("../img/binariog.jpg");
@@ -191,6 +246,7 @@ div.tutoriais{
 /**/
 div.bot-left :hover {
 	opacity: 0.5;
+	
 }
 
 /**/
@@ -203,6 +259,7 @@ div.img-tuto-left img:hover {
     opacity: 0.5;
 	
 }
+
 
 /**/
 div.img-tuto-right img:hover {
@@ -219,6 +276,7 @@ div.corpo{
     margin-right: -50%;
     transform: translate(-50%, 100px);
 	min-height: 1600px;
+	
 }
 div.corpoE{
 	background: rgba(0, 0, 0, 0);
@@ -287,8 +345,8 @@ div.corpo p{
 
 /**/
 div.info{
-	margin: 20px;
-	width: 400px;
+	margin: 10px;
+	width: 1000px;
 	
 	
 }
@@ -529,6 +587,17 @@ div.entrar form a p{
 		margin-top: 15%;
 		padding-left: 30%;
 		
+	}
+	div.imagem{
+		background-size: 100% 200px;
+		height: 200px;
+		margin-top: 275px;
+	}
+	div.conteudoTutorial{
+		width: 95%;
+	}
+	div.conteudoTutorial2{
+		width: 95%;
 	}
 }
 
