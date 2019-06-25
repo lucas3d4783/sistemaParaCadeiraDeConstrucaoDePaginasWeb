@@ -654,6 +654,25 @@ div.entrar form a p{
 		width: 95%;
 		margin-top: 250px;
 	}
-}
+	div.imagemFirewall{
+		background-size: 100% 200px;
+		height: 200px;
+		margin-top: 275px;	
+	}
+	div.imagemIpv6{
+		background-size: 100% 200px;
+		height: 200px;
+		margin-top: 275px;	
+	}
+	div.imagemEstruturacao{
+		background-size: 100% 200px;
+		height: 200px;
+		margin-top: 275px;	
+	}
+	div.imagemTopologia{
+		background-size: 100% 200px;
+		height: 200px;
+		margin-top: 275px;
+	}
 
 		
