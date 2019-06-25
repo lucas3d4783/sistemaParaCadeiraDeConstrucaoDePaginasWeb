@@ -13,6 +13,38 @@ div.imagem{
 	background-size: 100% 400px;
 	background-repeat: no-repeat;
 }
+div.imagemFirewall{
+	margin-top: 100px;
+	opacity: 0.7;
+	background-image:url("../img/Firewall.jpg");
+	height: 400px;
+	background-size: 100% 400px;
+	background-repeat: no-repeat;
+}
+div.imagemIpv6{
+	margin-top: 100px;
+	opacity: 0.7;
+	background-image:url("../img/ipv6.png");
+	height: 400px;
+	background-size: 100% 400px;
+	background-repeat: no-repeat;
+}
+div.imagemEstruturacao{
+	margin-top: 100px;
+	opacity: 0.7;
+	background-image:url("../img/cabeamentoEstruturado.jpg");
+	height: 400px;
+	background-size: 100% 400px;
+	background-repeat: no-repeat;
+}
+div.imagemTopologia{
+	margin-top: 100px;
+	opacity: 0.7;
+	background-image:url("../img/topologias.jpg");
+	height: 400px;
+	background-size: 100% 400px;
+	background-repeat: no-repeat;
+}
 
 /*div para os conteúdos escritos de um tutorial*/
 div.conteudoTutorial{
@@ -23,6 +55,7 @@ div.conteudoTutorial{
 	padding-right: 20px;
 	margin-top: 10px;
 }
+
 div.conteudoTutorial2{
 	margin-top: 150px;
 	width: 950px;
@@ -40,6 +73,22 @@ div.conteudoTutorial h2{
 div.conteudoTutorial2 h2{
 	margin-top: 10px;
 }
+
+/*ARTIGO Principal*/
+div.conteudoArtigo{
+	width: 950px;
+	color: white;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 20px;
+	margin-top: 10px;
+}
+
+div.conteudoArtigo{
+	margin-top: 10px;
+}
+
+
 div.linkNextPageTuto{
 	/*float: right;*/
 	margin-right: 20px;
@@ -593,11 +642,17 @@ div.entrar form a p{
 		height: 200px;
 		margin-top: 275px;
 	}
+	
 	div.conteudoTutorial{
 		width: 95%;
 	}
 	div.conteudoTutorial2{
 		width: 95%;
+		margin-top: 250px;
+	}
+	div.conteudoArtigo{
+		width: 95%;
+		margin-top: 250px;
 	}
 }
 
