@@ -1,4 +1,4 @@
-# Sistema Para Final da Cadeira De Construcao De Paginas Web
+# Sistema Final da Cadeira De Construcao De Paginas Web
 Projeto para o fechamento da cadeira de Construção de Páginas Web do Técnico em Informática (sem o uso de frameworks)
 
 # Algumas Telas do Sistema
